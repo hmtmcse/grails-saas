@@ -1,4 +1,4 @@
-package com.hmtmcse.saas
+package com.hmtmcse.gsaas
 
 import org.grails.datastore.mapping.multitenancy.exceptions.TenantNotFoundException
 

@@ -1,4 +1,4 @@
-package com.hmtmcse.saas
+package com.hmtmcse.gsaas
 
 import grails.boot.*
 import grails.boot.config.GrailsAutoConfiguration

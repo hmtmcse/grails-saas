@@ -1,4 +1,4 @@
-package com.hmtmcse.saas
+package com.hmtmcse.gsaas
 
 import grails.gorm.multitenancy.Tenants
 import groovy.transform.CompileStatic

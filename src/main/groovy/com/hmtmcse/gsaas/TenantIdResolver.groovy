@@ -1,4 +1,4 @@
-package com.hmtmcse.saas
+package com.hmtmcse.gsaas
 
 import groovy.transform.CompileStatic
 import org.grails.datastore.mapping.core.connections.ConnectionSource

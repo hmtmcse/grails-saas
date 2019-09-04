@@ -1,11 +1,12 @@
-package com.hmtmcse.saas
+package com.hmtmcse.gsaas
 
-import grails.plugins.*
+
+import grails.plugins.Plugin
 
 class GrailsSaasGrailsPlugin extends Plugin {
 
 
-    def grailsVersion = "4.0.0 > *"
+    def grailsVersion = "3.3.4 > *"
     def pluginExcludes = [
         "grails-app/views/error.gsp"
     ]
