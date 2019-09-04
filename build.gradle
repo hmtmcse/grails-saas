@@ -1,7 +1,7 @@
 if (project.hasProperty('isParentGradleConfig') && project.isParentGradleConfig){
     apply from: "${rootProject.projectDir}/gradle/plugin.gradle"
 }else{
-    apply from: "${rootProject.projectDir}/gradle/default-build.gradle"
+    apply from: "gradle/default-build.gradle"
 }
 
 
@@ -9,7 +9,10 @@ version "1.0.0"
 group "com.hmtmcse.gsaas"
 
 
-dependencies {}
+dependencies {
+    compile "org.grails.plugins:hibernate5"
+    compile "org.hibernate:hibernate-core:5.1.5.Final"
+}
 
 
 grailsPublish {
