@@ -8,7 +8,7 @@ class GrailsSaasGrailsPlugin extends Plugin {
 
     def grailsVersion = "3.3.4 > *"
     def pluginExcludes = [
-        "grails-app/views/error.gsp"
+            "grails-app/views/error.gsp"
     ]
 
     def title = "SaaS"
@@ -18,9 +18,10 @@ class GrailsSaasGrailsPlugin extends Plugin {
     def documentation = "http://grails.org/plugin/saas"
 
 
-    Closure doWithSpring() { {->
-        tenantIdResolver(TenantIdResolver)
-        tenantContext(TenantContext)
+    Closure doWithSpring() {
+        { ->
+            tenantIdResolver(TenantIdResolver)
+            tenantContext(TenantContext)
         }
     }
 
