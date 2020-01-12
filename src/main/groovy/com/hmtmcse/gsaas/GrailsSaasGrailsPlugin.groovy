@@ -10,6 +10,7 @@ class GrailsSaasGrailsPlugin extends Plugin {
     def pluginExcludes = [
             "grails-app/views/error.gsp"
     ]
+    def version = "1.0.0"
 
     def title = "SaaS"
     def author = "H.M.Touhid Mia"
